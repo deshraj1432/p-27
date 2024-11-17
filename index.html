@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text"> <h1>Checkout </h1></div>
+        
+        <form action="#" method="POST">
+            <!-- Billing Information -->
+            <div class="bill">
+                <legend>Billing Information</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+
+                <label for="">Zip Code:</label>
+                <input type="number" id="zip" name="zip" required>
+            </div>
+
+            <!-- Payment Information -->
+            <div class="Payment">
+                <legend>Payment Information</legend>
+                <label for="cardname">Name on Card:</label>
+                <input type="text" id="cardname" name="cardname" required>
+
+                <label for="cardnumber">Card Number:</label>
+                <input type="number" id="cardnumber" name="cardnumber" required>
+
+                <label for="expmonth">Exp Month:</label>
+                <input type="number" id="expmonth" name="expmonth" required>
+
+                <label for="expyear">Exp Year:</label>
+                <input type="number" id="expyear" name="expyear" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="number" id="cvv" name="cvv" required>
+                 <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    
+</body>
+</html>
